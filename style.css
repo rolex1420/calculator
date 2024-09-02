@@ -1,0 +1,120 @@
+/* #parent{
+    border: 2px solid gray;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.child{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    flex-direction: row;
+} */
+/* body{
+    position: absolute;
+    top: 30%;
+    left: 40%;
+}
+
+#parent{
+    display: grid;
+    width: 200px;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    border: 1px solid;
+}
+.child{
+    display: flex;
+    width: 100%;
+}
+.child > *{
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+} */
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#parent {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+}
+
+#value {
+    width: 100%;
+    padding: 20px;
+    font-size: 2em;
+    border: none;
+    border-bottom: 2px solid #ddd;
+    text-align: right;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.child {
+    display: flex;
+}
+
+button {
+    flex: 1;
+    padding: 20px;
+    font-size: 1.5em;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #eee;
+}
+
+button:active {
+    background-color: #ddd;
+}
+
+button.number {
+    background-color: #fff;
+}
+
+button.operator {
+    background-color: #ff9500;
+    color: #fff;
+}
+
+button.operator:hover {
+    background-color: #e68a00;
+}
+
+button#crose {
+    background-color: #ff3b30;
+    color: #fff;
+}
+
+button#crose:hover {
+    background-color: #e33228;
+}
+
+/* button#= {
+    background-color: #4cd964;
+    color: #fff;
+}
+
+button#= :hover {
+    background-color: #43c058;
+} */
